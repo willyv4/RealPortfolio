@@ -1,18 +1,16 @@
+import SwipeableTextMobileStepper from "./cardSlides"
 import "./mainPage.css";
-import './cardSlides.css'
-import TitlebarBelowImageList from "./ImageList";
 
-const MainPage = () => {
+function mainPage() {
   return (
-      <div className="MainPage_Container">
-          <div className="ContentContainer">
-          </div>
-          <div className="skillOutline">
-          <TitlebarBelowImageList />
-          </div>
-          <div className="CardSlide_Container"></div>
+    <div className="MainPage_Container">
+      <div className="ContentContainer">
+          <SwipeableTextMobileStepper />
       </div>
+      <div className="projects"></div>
+      <div className="CardSlide_Container"></div>
+    </div>
   );
-};
+}
 
-export default MainPage;
+export default mainPage;

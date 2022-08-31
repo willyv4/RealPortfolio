@@ -1,88 +1,139 @@
-import * as React from 'react';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-import ImageListItemBar from '@mui/material/ImageListItemBar';
+import * as React from "react";
+import "./ImageList.css";
 
 export default function TitlebarBelowImageList() {
   return (
-    <ImageList sx={{ width: 440, height: 450, ml: 30}}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img} sx={{p: 5}} className="IMG">
-          <img
-            src={`${item.img}?w=248&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-            alt={item.title}
-            loading="lazy"
-          />
-          <ImageListItemBar
-            title={item.title}
-            subtitle={<span>by: {item.author}</span>}
-            position="below"
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>
+    <div className="skillOutline">
+      <div className="slideContainer">
+        <div className="slideTrack">
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.TTbE03jKa1ox6YkKQ-R0jAHaEM?w=293&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://pluspng.com/img-png/react-logo-png-img-react-logo-png-react-js-logo-png-transparent-png-1142x1027.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/R.ec3e6e33fccfcd5a5740ca2bb84cd13c?rik=Fe8qK7Zb7RGxeQ&pid=ImgRaw&r=0"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.9nmpe21kOln2OBgSM-TDZAAAAA?pid=ImgDet&rs=1"
+            />
+          </div>
+          <div className="slides">
+            <img alt="logo" src="https://www.smsgatewayhub.com/apik.jpg" />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://pluspng.com/img-png/nodejs-logo-png--375.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://media.zeemly.com/zeemly/product/supabase.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.qdSP64cjgExVDMXwwu0TmwHaFj?w=202&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.6iSQRwwvlxEyym8nZbkC0AHaHa?w=157&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://www.shareicon.net/data/2015/09/12/99754_wordpress_512x512.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/09/VS-for-Mac-RTW-Logo.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.TTbE03jKa1ox6YkKQ-R0jAHaEM?w=293&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://pluspng.com/img-png/react-logo-png-img-react-logo-png-react-js-logo-png-transparent-png-1142x1027.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/R.ec3e6e33fccfcd5a5740ca2bb84cd13c?rik=Fe8qK7Zb7RGxeQ&pid=ImgRaw&r=0"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.9nmpe21kOln2OBgSM-TDZAAAAA?pid=ImgDet&rs=1"
+            />
+          </div>
+          <div className="slides">
+            <img alt="logo" src="https://www.smsgatewayhub.com/apik.jpg" />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://pluspng.com/img-png/nodejs-logo-png--375.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://media.zeemly.com/zeemly/product/supabase.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.qdSP64cjgExVDMXwwu0TmwHaFj?w=202&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://th.bing.com/th/id/OIP.6iSQRwwvlxEyym8nZbkC0AHaHa?w=157&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://www.shareicon.net/data/2015/09/12/99754_wordpress_512x512.png"
+            />
+          </div>
+          <div className="slides">
+            <img
+              alt="logo"
+              src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2019/09/VS-for-Mac-RTW-Logo.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
-
-const itemData = [
-  {
-    img: 'https://th.bing.com/th/id/OIP.TTbE03jKa1ox6YkKQ-R0jAHaEM?w=293&h=180&c=7&r=0&o=5&pid=1.7',
-    title: 'JAVASCRIPT',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
-    author: '@rollelflex_graphy726',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
-    author: '@helloimnik',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
-    author: '@nolanissac',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
-    author: '@hjrc33',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
-    author: '@arwinneil',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
-    author: '@tjdragotta',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
-    author: '@katie_wasserman',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-    author: '@silverdalex',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
-    author: '@shelleypauls',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    author: '@peterlaster',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: '@southside_customs',
-  },
-];

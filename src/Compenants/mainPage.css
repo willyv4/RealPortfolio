@@ -1,7 +1,7 @@
 .MainPage_Container {
     width: 1230px;
     height: 500px;
-    background-color: rgb(0, 0, 0);
+    background-color: aliceblue;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -12,24 +12,22 @@
     margin-top: 5px;
 }
 
-.ContentContainer {
+/* .ContentContainer {
     background-image: url('/public/mypic.jpg'); 
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 210px;
     flex-direction: row;
-    border-radius: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 10px;
+    margin-bottom: 100px;
+    margin-right: 120px;
     flex-direction: column;
-}
+    border-radius: 140px;
+} */
 
-.skillOutline {
-    width: 750px; height: 475px;
+/* .projects {
     clip-path: polygon(50% 0%, 0% 140%, 30000% 0%);
-    border-radius: 10px;
-    box-shadow: rgb(255, 255, 255) 2px 3px 10px -5px;
-    background-color: rgb(255, 255, 255);
-    margin-left: -330px;
-    margin-right: 20px;
-}
+    width: 800px;
+    height: 450px;
+    background: linear-gradient(to right, rgb(191, 191, 191) , white);
+    margin-right: 120px;
+} */
+

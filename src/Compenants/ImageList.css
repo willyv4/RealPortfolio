@@ -1,0 +1,76 @@
+.skillOutline {
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    margin-top: -190px;
+}
+
+.slideContainer {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slideTrack {
+    display: flex;
+    width: calc(250px * 24);
+    animation: play 50s linear infinite;
+}
+
+@keyframes play {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-150px * 12));
+    }
+}
+
+.slides {
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    perspective: 100px;
+    overflow: hidden;
+}
+
+img {
+    width: 80%;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: translateZ(20px);
+}
+
+.slideContainer::before,
+.slideContainer::after {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+    rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slideContainer::before {
+    left: 0;
+    top: 0;
+}
+
+.slideContainer::after {
+    right: 0;
+    margin-left: 1px;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+
+
