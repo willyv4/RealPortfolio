@@ -5,22 +5,23 @@ import MobileStepper from '@mui/material/MobileStepper';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import SwipeableViews from 'react-swipeable-views';
 
 const images = [
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: 'Budget Tracker',
     imgPath:
-      'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
+    '316F84AF-49C6-4E81-BA82-D35ADDADC8EF_1_105_c.jpeg',
   },
   {
-    label: 'Bird',
+    label: 'Weather App',
     imgPath:
-      'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
+      'C0C3C7E1-E4BC-4706-99A7-60E709E698B3_1_105_c.jpeg',
   },
   {
-    label: 'Bali, Indonesia',
+    label: 'Blog',
     imgPath:
-      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
+      'C3A25BE0-5023-4F54-85BB-C9A1C83250F9_1_105_c.jpeg',
   },
   {
     label: 'Goč, Serbia',
@@ -42,8 +43,12 @@ function SwipeableTextMobileStepper() {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
+  const handleStepChange = (step) => {
+    setActiveStep(step);
+  };
+
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
+    <Box sx={{ maxWidth: 400, flexGrow: 1, ml: 90, boxShadow: 5, borderRadius: 2,}}>
       <Paper
         square
         elevation={0}
@@ -53,11 +58,39 @@ function SwipeableTextMobileStepper() {
           height: 50,
           pl: 2,
           bgcolor: 'background.default',
+          borderTopRightRadius: 10,
+          borderTopLeftRadius: 10,
         }}
       >
         <Typography>{images[activeStep].label}</Typography>
       </Paper>
+      <SwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={activeStep}
+        onChangeIndex={handleStepChange}
+        enableMouseEvents
+      >
+        {images.map((step, index) => (
+          <div key={step.label}>
+            {Math.abs(activeStep - index) <= 2 ? (
+              <Box
+                component="img"
+                sx={{
+                  height: 255,
+                  display: 'block',
+                  maxWidth: 400,
+                  overflow: 'hidden',
+                  width: '100%',
+                }}
+                src={step.imgPath}
+                alt={step.label}
+              />
+            ) : null}
+          </div>
+        ))}
+      </SwipeableViews>
       <MobileStepper
+        sx={{borderBottomLeftRadius: 10, borderBottomRightRadius:10,}}
         steps={maxSteps}
         position="static"
         activeStep={activeStep}

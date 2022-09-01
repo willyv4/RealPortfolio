@@ -1,15 +1,18 @@
-import SwipeableTextMobileStepper from "./cardSlides"
+import SwipeableTextMobileStepper from "./cardSlides";
 import "./mainPage.css";
 
 function mainPage() {
   return (
-    <div className="MainPage_Container">
-      <div className="ContentContainer">
+      <div>
+          <div className="landing"></div>
+      <div className="MainPage_Container">
+        <div className="ContentContainer">
           <SwipeableTextMobileStepper />
+        </div>
+        <div className="projects"></div>
+        <div className="CardSlide_Container"></div>
       </div>
-      <div className="projects"></div>
-      <div className="CardSlide_Container"></div>
-    </div>
+      </div>
   );
 }
 

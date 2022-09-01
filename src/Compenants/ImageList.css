@@ -2,11 +2,11 @@
     display: flex;
     place-items: center;
     min-height: 100vh;
-    margin-top: -190px;
+    margin-top: -210px;
 }
 
 .slideContainer {
-    height: 250px;
+    height: 150px;
     margin: auto;
     position: relative;
     width: 90%;
@@ -18,7 +18,8 @@
 .slideTrack {
     display: flex;
     width: calc(250px * 24);
-    animation: play 50s linear infinite;
+    animation: play 90s linear infinite;
+    margin-top: -40px;
 }
 
 @keyframes play {
@@ -31,8 +32,8 @@
 }
 
 .slides {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     padding: 15px;
     display: flex;
     align-items: center;
