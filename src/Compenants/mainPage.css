@@ -25,22 +25,15 @@
     border-radius: 10px;
 }
 
-/* .ContentContainer {
-    background-image: url('/public/mypic.jpg'); 
-    width: 250px;
-    height: 210px;
-    flex-direction: row;
-    margin-bottom: 100px;
-    margin-right: 120px;
+.headContainer {
+    display: flex;
     flex-direction: column;
-    border-radius: 140px;
-} */
+    width: 120px;
+    height: 1200px;
+}
 
-/* .projects {
-    clip-path: polygon(50% 0%, 0% 140%, 30000% 0%);
-    width: 800px;
-    height: 450px;
-    background: linear-gradient(to right, rgb(191, 191, 191) , white);
-    margin-right: 120px;
-} */
+.intro {
+    color: rgb(255, 255, 255);
+    text-shadow: bisque 0px 0px 20px 20px;
+}
 

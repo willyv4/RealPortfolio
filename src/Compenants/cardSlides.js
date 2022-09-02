@@ -24,9 +24,14 @@ const images = [
       'C3A25BE0-5023-4F54-85BB-C9A1C83250F9_1_105_c.jpeg',
   },
   {
-    label: 'Goč, Serbia',
+    label: 'Sound Sculpt',
     imgPath:
-      'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+      'C0083082-482C-423F-9278-12AAB95EB8AC_1_105_c.jpeg',
+  },
+  {
+    label: 'Roc Wheels ecommerce',
+    imgPath:
+      '6A816318-5576-4C4F-B3C7-8C450B5B6F0B_1_105_c.jpeg',
   },
 ];
 
@@ -72,7 +77,7 @@ function SwipeableTextMobileStepper() {
       >
         {images.map((step, index) => (
           <div key={step.label}>
-            {Math.abs(activeStep - index) <= 2 ? (
+            {Math.abs(activeStep - index) <= 3 ? (
               <Box
                 component="img"
                 sx={{
