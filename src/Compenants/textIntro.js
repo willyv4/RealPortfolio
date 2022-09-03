@@ -1,13 +1,19 @@
+import BasicMenu from "./Menu";
 import "./textIntro.css";
 
 const TextIntro = () => {
   return (
     <div>
-      <svg viewBox="0 0 1320 300">
-        <text x="50%" y="50%" dy="-.100em" text-anchor="middle">
-          Will Valadez <br></br> Web Developer
-        </text>
-      </svg>
+      <BasicMenu />
+      <div className="backgroundpic">
+        <img className="photo" alt="will" src="mypic.jpg"></img>
+      </div>
+      <h1>
+        WILL VALADEZ <br></br>
+        WEB DEVELOPER
+      </h1>
+      <div className="triangle-element"></div>
+      <div className="triangle-element2"></div>
     </div>
   );
 };

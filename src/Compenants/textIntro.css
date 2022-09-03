@@ -1,23 +1,54 @@
-svg {
-	font-family: 'Russo One', sans-serif;
-	width: 100%; height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+h1 {
+    font-size: 75px;
+    float: left;
+    margin-left: 85px;
+    color: white;
 }
-svg text {
-	text-transform: uppercase;
-	animation: stroke 12s infinite;
-	stroke-width: 10;
-	stroke: #ff6f6f;
-	font-size: 80px;
+
+.backgroundpic{
+    width: 360px;
+    height: 245px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: -50px;
 }
-@keyframes stroke {
-	100%   {
-		fill: rgba(72,138,20,0); stroke: #ff6f6f;
-		stroke-dashoffset: 75%; stroke-dasharray: 0 70%; stroke-width: 2;
-	}
-	0%  {fill: rgba(72,138,20,0); stroke: #ff6f6f; }
-	0%  {fill: rgba(72,138,20,0); stroke: #ff6f6f; stroke-width: 3; }
-	0% {
-		fill: #ff6f6f; stroke: rgba(54,95,160,0); 
-		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
+
+.photo {
+    margin-top: 15px;
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-left: 70px;
+    border-radius: 150px;
+}
+ 
+.h1 {
+  font-family: "Bungee Shade";
+}
+
+.triangle-element {
+    width: 400px;
+    height: 400px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.275);
+    clip-path: polygon(100% 0%, 200% 150%, 0% 100%);
+    border-bottom-right-radius: 10px;
+    margin-top: -150px;
+    margin-right: 60px;
+    box-shadow: black -10px -10px 20px 3px;
+}
+
+.triangle-element2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.427);
+    clip-path: polygon(100% 0%, 200% 150%, 0% 100%);
+    border-bottom-right-radius: 10px;
+    margin-top: -400px;
+    margin-right: 110px;
+    box-shadow: black -10px -10px 20px 3px;
 }
