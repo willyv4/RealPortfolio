@@ -1,0 +1,31 @@
+.ButtonBox {
+    position: absolute;
+    background-color: rgba(255, 246, 246, 0.692);
+    color: black;
+    width: 200px;
+    height: 480px;
+    margin-left: 500px;
+    margin-top: 75px;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 20px -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    flex-direction: column;
+    display: flex;
+    text-decoration: none;
+    border: none;
+    width: 160px;
+    height: 12.5%;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: black solid 2px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+

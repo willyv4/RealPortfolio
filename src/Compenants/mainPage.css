@@ -15,7 +15,7 @@
 .landing {
     width: 1230px;
     height: 625px;
-    background-image: linear-gradient(rgb(80, 89, 98), grey);
+    background-image: linear-gradient(rgb(182, 196, 209), grey);
     display: flex;
     flex-direction: row;
     justify-content: center;

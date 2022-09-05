@@ -1,17 +1,21 @@
-import BasicMenu from "./Menu";
+import GroupOrientation from './ButtonGroup';
+import Typist from 'react-typist';
+
 import "./textIntro.css";
 
 const TextIntro = () => {
   return (
     <div>
-      <BasicMenu />
+      <GroupOrientation />
       <div className="backgroundpic">
         <img className="photo" alt="will" src="mypic.jpg"></img>
       </div>
-      <h1>
-        WILL VALADEZ <br></br>
-        WEB DEVELOPER
-      </h1>
+      <div><Typist className="text">
+        WHAT'S UP? I'M 
+        WILL VALADEZ, <br></br>
+        A WEB DEVELOPER
+      </Typist>
+      </div>
       <div className="triangle-element"></div>
       <div className="triangle-element2"></div>
     </div>

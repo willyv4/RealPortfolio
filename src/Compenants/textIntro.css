@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
-h1 {
-    font-size: 75px;
-    float: left;
-    margin-left: 85px;
-    color: white;
-}
+
 
 .backgroundpic{
     width: 360px;
     height: 245px;
     background-color: rgb(235, 235, 235);
     border-radius: 10px;
-    margin-left: 100px;
-    margin-top: -50px;
+    margin-top: 50px;
+    margin-left: 75px;
+    position: relative;
 }
 
 .photo {
@@ -25,30 +21,11 @@ h1 {
     border-radius: 150px;
 }
  
-.h1 {
+.text {
   font-family: "Bungee Shade";
-}
-
-.triangle-element {
-    width: 400px;
-    height: 400px;
-    float: right;
-    background-color: rgba(255, 255, 255, 0.275);
-    clip-path: polygon(100% 0%, 200% 150%, 0% 100%);
-    border-bottom-right-radius: 10px;
-    margin-top: -150px;
-    margin-right: 60px;
-    box-shadow: black -10px -10px 20px 3px;
-}
-
-.triangle-element2 {
-    width: 300px;
-    height: 300px;
-    float: right;
-    background-color: rgba(255, 255, 255, 0.427);
-    clip-path: polygon(100% 0%, 200% 150%, 0% 100%);
-    border-bottom-right-radius: 10px;
-    margin-top: -400px;
-    margin-right: 110px;
-    box-shadow: black -10px -10px 20px 3px;
+  font-size: 70px;
+  float: left;
+  margin-left: 75px;
+  color: rgb(35, 35, 35);
+  margin-top: 50px;
 }
