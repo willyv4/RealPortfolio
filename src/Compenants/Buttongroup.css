@@ -1,15 +1,16 @@
 .ButtonBox {
     position: absolute;
-    background-color: rgba(255, 246, 246, 0.692);
+    background-color: rgba(255, 252, 252, 0.831);
     color: black;
     width: 200px;
     height: 480px;
-    margin-left: 500px;
+    margin-left: 950px;
     margin-top: 75px;
     border-radius: 10px;
     box-shadow: black 0px 0px 20px -10px;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 .buttons {
@@ -19,13 +20,23 @@
     display: flex;
     text-decoration: none;
     border: none;
-    width: 160px;
+    width: 120px;
     height: 12.5%;
     font-size: medium;
     background-color: rgba(255, 255, 255, 0);
     border-bottom: black solid 2px;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons:hover {
+    border-bottom: rgb(255, 255, 255) solid 2px;
+    width: 140px;
+    transition: .8s;
+    cursor: pointer;
+    font-size: large;
 }
 

@@ -1,12 +1,13 @@
 import MainPage from "./Compenants/mainPage";
-import TitlebarBelowImageList from "./Compenants/ImageList";
+import Skills from "./Compenants/Skills";
+
 
 
 function App() {
   return (
     <div>
       <MainPage />
-      <TitlebarBelowImageList />
+      <Skills />
     </div>
   );
 }

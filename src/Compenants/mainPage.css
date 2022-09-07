@@ -1,7 +1,7 @@
 .MainPage_Container {
     width: 1230px;
-    height: 625px;
-    background-image: linear-gradient(grey, rgb(231, 231, 231));
+    height: 425px;
+    background-image: linear-gradient(grey, rgb(255, 255, 255));
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -37,3 +37,6 @@
     text-shadow: bisque 0px 0px 20px 20px;
 }
 
+.textContainer {
+    margin-left: -600px;
+}

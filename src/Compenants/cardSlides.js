@@ -49,7 +49,7 @@ function SwipeableTextMobileStepper() {
 
   return (
     <Box
-      sx={{ maxWidth: 400, flexGrow: 1, mr: 80, boxShadow: 5, borderRadius: 2 }}
+      sx={{ minWidth: 400, maxWidth: 400, flexGrow: 1, mr: 85, boxShadow: 5, borderRadius: 2, mt: 11, ml: 10}}
     >
       <Paper
         square
@@ -93,10 +93,10 @@ function SwipeableTextMobileStepper() {
       </SwipeableViews>
       <MobileStepper
         sx={{
-          mt: -10,
+          mt: -2,
           borderBottomLeftRadius: 10,
           borderBottomRightRadius: 10,
-          height: 200,
+          height: 80,
           color: 'black',
         }}
         steps={maxSteps}
