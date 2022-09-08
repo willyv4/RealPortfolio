@@ -1,10 +1,9 @@
 .MainPage_Container {
     width: 1230px;
     height: 425px;
-    background-image: linear-gradient(grey, rgb(255, 255, 255));
+    background-image: linear-gradient(#d9dad7, rgb(255, 255, 255));
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +14,8 @@
 .landing {
     width: 1230px;
     height: 625px;
-    background-image: linear-gradient(rgb(182, 196, 209), grey);
+    /* background-image: linear-gradient(rgb(187, 203, 216), rgb(107, 114, 126)); */
+    background-color:#d9dad7;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,11 +32,10 @@
     height: 1200px;
 }
 
-.intro {
-    color: rgb(255, 255, 255);
-    text-shadow: bisque 0px 0px 20px 20px;
-}
-
 .textContainer {
-    margin-left: -600px;
+    margin-left: -300px;
+    margin-right: 150px;
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 400px;
 }

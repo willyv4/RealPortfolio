@@ -49,7 +49,7 @@ function SwipeableTextMobileStepper() {
 
   return (
     <Box
-      sx={{ minWidth: 400, maxWidth: 400, flexGrow: 1, mr: 85, boxShadow: 5, borderRadius: 2, mt: 11, ml: 10}}
+      sx={{ minWidth: 400, maxWidth: 400, flexGrow: 1, mr: 85, boxShadow: 5, borderRadius: 2, mt: 11, mr: -40}}
     >
       <Paper
         square

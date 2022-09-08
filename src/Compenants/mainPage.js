@@ -1,6 +1,7 @@
 import SwipeableTextMobileStepper from "./cardSlides";
 import TextIntro from "./textIntro";
 import "./mainPage.css";
+import AboutMe from "./AboutMe";
 
 function mainPage() {
   return (
@@ -8,10 +9,8 @@ function mainPage() {
       <div className="landing">
         <TextIntro />
       </div>
+      <AboutMe />
       <div className="MainPage_Container">
-        <div className="ContentContainer">
-          <SwipeableTextMobileStepper />
-        </div>
         <div className="textContainer">
           <h1 className="TEXT">PROJECTS AND SKILLS</h1>
           <p>
@@ -26,6 +25,7 @@ function mainPage() {
             Building Relationships.
           </p>
         </div>
+        <SwipeableTextMobileStepper />
       </div>
     </div>
   );

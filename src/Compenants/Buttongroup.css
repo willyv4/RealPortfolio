@@ -1,42 +1,40 @@
 .ButtonBox {
     position: absolute;
-    background-color: rgba(255, 252, 252, 0.831);
+    background-color:  #d27157;
     color: black;
-    width: 200px;
-    height: 480px;
-    margin-left: 950px;
-    margin-top: 75px;
+    width: 580px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: black 0px 0px 20px -10px;
-    display: flex;
+    align-items: center;
     justify-content: center;
     z-index: 1;
+    display: flex;
 }
 
 .buttons {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    flex-direction: column;
-    display: flex;
+    flex-direction: row;
     text-decoration: none;
     border: none;
-    width: 120px;
-    height: 12.5%;
+    width: 125px;
     font-size: medium;
-    background-color: rgba(255, 255, 255, 0);
-    border-bottom: black solid 2px;
+    background: linear-gradient(to top, rgb(233, 233, 233), rgb(255, 255, 255));
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 44px;
+    border-radius: 5px;
 }
 
 .buttons:hover {
-    border-bottom: rgb(255, 255, 255) solid 2px;
-    width: 140px;
-    transition: .8s;
+    transform: translateY(-7px);
+    transform: translatex(-7px);
+    transition: 1s;
     cursor: pointer;
-    font-size: large;
+    box-shadow: 10px 10px 10px -12px;
+    background: linear-gradient(to top, rgb(222, 222, 222), rgb(255, 255, 255));
 }
 

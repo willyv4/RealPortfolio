@@ -1,0 +1,49 @@
+.AboutMe-Container {
+    width: 1230px;
+    height: 625px;
+    background-color: #d9dad7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.AboutmeText {
+    position: absolute;
+    z-index: 2;
+    float: right;
+    margin-left: 550px;
+    margin-top: 170px;
+    min-width: 600px;
+    max-width: 600px;
+    background-color: #1a2639;
+    font-size: larger;
+    line-height: 35px;
+    box-shadow: black 0px 0px 20px -10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.aboutmeheader {
+    background-color: #d27157;
+    padding:40px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: -280px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    color:#1a2639;
+    box-shadow: black 0px 0px 20px -10px;
+}
+
+.lilpic {
+    width: 350px;
+    height: 350px;
+    margin-left: -600px;
+    margin-bottom: -300px;
+}

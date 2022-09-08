@@ -1,5 +1,5 @@
 import GroupOrientation from "./ButtonGroup";
-import Typist from "react-typist";
+import Typed from "react-typed";
 
 import "./textIntro.css";
 
@@ -10,9 +10,11 @@ const TextIntro = () => {
       <div className="backgroundpic">
         <img className="photo" alt="will" src="mypic.jpg"></img>
       </div>
-        <Typist className="text">
-          WHAT'S UP? I'M WILL VALADEZ, A WEB DEVELOPER.
-        </Typist>
+      <Typed className="text" 
+            strings={["What's up? I'm Will, a Web Developer!", "What's up I'm Will, a Front-end Software Engineer!", "Your best friend?"]}
+            typeSpeed={60}
+            backSpeed={80}
+            loop />
       <div className="triangle"></div>
     </div>
   );
