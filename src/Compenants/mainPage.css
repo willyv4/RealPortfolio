@@ -1,6 +1,6 @@
 .MainPage_Container {
     width: 1230px;
-    height: 425px;
+    height: 500px;
     background-image: linear-gradient(#d9dad7, rgb(255, 255, 255));
     border-radius: 10px;
     display: flex;
@@ -38,4 +38,26 @@
     min-width: 600px;
     max-width: 600px;
     max-height: 400px;
+}
+
+.TEXT {
+    background-color: #d27157;
+    padding:30px;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    color:#1a2639;
+    box-shadow: black 0px 0px 20px -10px;
+}
+
+.projectandskills {
+    min-width: 600px;
+    max-width: 600px;
+    background-color: #1a2639;
+    font-size: larger;
+    line-height: 35px;
+    box-shadow: black 0px 0px 20px -10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
 }

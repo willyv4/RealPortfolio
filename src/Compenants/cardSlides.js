@@ -49,7 +49,15 @@ function SwipeableTextMobileStepper() {
 
   return (
     <Box
-      sx={{ minWidth: 400, maxWidth: 400, flexGrow: 1, mr: 85, boxShadow: 5, borderRadius: 2, mt: 11, mr: -40}}
+      sx={{
+        minWidth: 400,
+        maxWidth: 400,
+        flexGrow: 1,
+        boxShadow: 5,
+        borderRadius: 2,
+        mt: 11,
+        mr: -40,
+      }}
     >
       <Paper
         square
@@ -59,7 +67,7 @@ function SwipeableTextMobileStepper() {
           alignItems: "center",
           height: 50,
           pl: 2,
-          bgcolor: "background.default",
+          bgcolor: "#3e4a61",
           borderTopRightRadius: 10,
           borderTopLeftRadius: 10,
         }}
@@ -94,17 +102,18 @@ function SwipeableTextMobileStepper() {
       <MobileStepper
         sx={{
           mt: -2,
+          bgcolor: "#3e4a61",
           borderBottomLeftRadius: 10,
           borderBottomRightRadius: 10,
           height: 80,
-          color: 'black',
         }}
+        iconColor='white'
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
         nextButton={
           <Button
-            size="small"
+            size="large"
             onClick={handleNext}
             disabled={activeStep === maxSteps - 1}
           >
@@ -113,7 +122,7 @@ function SwipeableTextMobileStepper() {
                 stroke="black"
                 fill="black"
                 stroke-width="2"
-                viewBox="0 0 24 24"
+                viewBox="0 0 1024 1024"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 height="1em"
@@ -125,47 +134,45 @@ function SwipeableTextMobileStepper() {
               </svg>
             ) : (
               <svg
-                stroke="black"
-                fill="black"
+                stroke="white"
+                fill="white"
                 stroke-width="0"
-                viewBox="0 0 1024 1024"
-                height="1em"
-                width="1em"
+                viewBox="0 0 24 24"
+                height="1.5em"
+                width="1.5em"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"></path>
+                <path d="M5.536,21.886C5.682,21.962,5.841,22,6,22c0.2,0,0.398-0.06,0.569-0.178l13-9C19.839,12.635,20,12.328,20,12 s-0.161-0.635-0.431-0.822l-13-9C6.264,1.966,5.864,1.941,5.536,2.114C5.206,2.287,5,2.628,5,3v18 C5,21.372,5.206,21.713,5.536,21.886z M7,4.909L17.243,12L7,19.091V4.909z"></path>
               </svg>
             )}
           </Button>
         }
         backButton={
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+          <Button size="large" onClick={handleBack} disabled={activeStep === 0}>
             {theme.direction === "rtl" ? (
               <svg
                 stroke="black"
                 fill="black"
-                stroke-width="0"
-                viewBox="0 0 1024 1024"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"></path>
-              </svg>
-            ) : (
-              <svg
-                stroke="black"
-                fill="none"
                 stroke-width="2"
-                viewBox="0 0 24 24"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                viewBox="0 0 1024 1024"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <polyline points="11 17 6 12 11 7"></polyline>
                 <polyline points="18 17 13 12 18 7"></polyline>
+              </svg>
+            ) : (
+              <svg
+                stroke="white"
+                fill="white"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                height="1.5em"
+                width="1.5em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M18.464,2.114c-0.329-0.174-0.728-0.148-1.033,0.063l-13,9C4.161,11.365,4,11.672,4,12s0.161,0.635,0.431,0.822l13,9 C17.602,21.94,17.8,22,18,22c0.159,0,0.318-0.038,0.464-0.114C18.794,21.713,19,21.372,19,21V3 C19,2.628,18.794,2.287,18.464,2.114z M17,19.091L6.757,12L17,4.909V19.091z"></path>
               </svg>
             )}
           </Button>

@@ -34,16 +34,17 @@
     padding:40px;
     padding-left: 180px;
     padding-right: 180px;
-    margin-top: -280px;
-    margin-bottom: 100px;
+    margin-top: -200px;
+    margin-bottom: -10px;
     border-radius: 10px;
     color:#1a2639;
     box-shadow: black 0px 0px 20px -10px;
 }
 
 .lilpic {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin-left: -600px;
-    margin-bottom: -300px;
+    margin-top: 80px;
+    margin-bottom: -200px;
 }

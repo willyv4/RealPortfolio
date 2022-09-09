@@ -13,7 +13,7 @@ function mainPage() {
       <div className="MainPage_Container">
         <div className="textContainer">
           <h1 className="TEXT">PROJECTS AND SKILLS</h1>
-          <p>
+          <p className="projectandskills">
             I have honed a variety of skills in and outside the tech industry.
             In the last 7 months I have created and contributed to many
             projects. heres some of the skills learned along the way... React,
