@@ -15,15 +15,13 @@
 
 @keyframes spinning {
     from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
+    to { transform: rotate(180deg) }
   }
   .ContactPlus:hover {
     animation-name: spinning;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+    animation-duration: .25s;
     /* linear | ease | ease-in | ease-out | ease-in-out */
     animation-timing-function: linear;
-    transform: translateY(10px);
   }
 
 .ContactPlus {
@@ -51,4 +49,9 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.buttonthing {
+    width: 20px;
+    height: 20px;
 }
