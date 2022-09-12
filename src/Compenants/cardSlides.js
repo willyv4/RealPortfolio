@@ -107,7 +107,6 @@ function SwipeableTextMobileStepper() {
           borderBottomRightRadius: 10,
           height: 80,
         }}
-        iconColor='white'
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
