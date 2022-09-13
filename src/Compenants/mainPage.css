@@ -8,7 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .landing {
@@ -42,7 +42,7 @@
 
 .TEXT {
     background-color: #d27157;
-    padding:30px;
+    padding:25px;
     width: 600px;
     border-radius: 10px;
     text-align: center;

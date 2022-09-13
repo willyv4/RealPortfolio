@@ -21,7 +21,7 @@ const Skills = () => {
             <div className="slides">
               <img
                 alt="logo"
-                src="https://th.bing.com/th/id/R.ec3e6e33fccfcd5a5740ca2bb84cd13c?rik=Fe8qK7Zb7RGxeQ&pid=ImgRaw&r=0"
+                src="https://cdn.iconscout.com/icon/free/png-256/css-118-569410.png"
               />
             </div>
             <div className="slides">
@@ -84,7 +84,7 @@ const Skills = () => {
             <div className="slides">
               <img
                 alt="logo"
-                src="https://th.bing.com/th/id/R.ec3e6e33fccfcd5a5740ca2bb84cd13c?rik=Fe8qK7Zb7RGxeQ&pid=ImgRaw&r=0"
+                src="https://cdn.iconscout.com/icon/free/png-256/css-118-569410.png"
               />
             </div>
             <div className="slides">

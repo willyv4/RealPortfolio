@@ -2,9 +2,9 @@
     position: absolute;
     background-color:  #d27157;
     color: black;
-    width: 580px;
+    width: 620px;
     height: 200px;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: black 0px 0px 20px -10px;
@@ -12,21 +12,23 @@
     justify-content: center;
     z-index: 1;
     display: flex;
+    padding-left: 20px;
 }
 
 .buttons {
     flex-direction: row;
     text-decoration: none;
     border: none;
-    width: 125px;
+    height: 70px;
+    width: 145px;
     font-size: small;
-    background: linear-gradient(to top, rgb(233, 233, 233), rgb(255, 255, 255));
+    background-color: white;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 15px;
-    margin-left: 44px;
-    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 1.5px;
+    margin-left: 0px;
     font-weight: bolder;
     color: #1a2639;
 }
@@ -36,7 +38,12 @@
     transform: translatex(-7px);
     transition: 1s;
     cursor: pointer;
-    box-shadow: 10px 10px 10px -12px;
-    background: linear-gradient(to top, rgb(222, 222, 222), rgb(255, 255, 255));
+    box-shadow: black 10px 10px 15px -10px;
+    background-color: #d9dad7;
+    
 }
 
+.icons {
+    padding: -10px;
+    margin-right: 20px;
+}

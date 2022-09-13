@@ -1,0 +1,27 @@
+.picButtons {
+    border-style: none;
+    background-color: #ffffff;
+    padding: 8px;
+    color: #1a2639;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    border: #3e4a61 solid 2px;
+    margin: 5px;
+}
+
+.picButtons:hover {
+  background-color: #d27157;
+  color:#1a2639;
+  border: none;
+  transition: .8s;
+}
+
+.css-114p2tk-MuiMobileStepper-dot {
+    background-color: #ababab;
+}
+
+.MuiMobileStepper-dotActive {
+    background-color: #1a2639;
+}

@@ -3,30 +3,36 @@ import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import MobileStepper from "@mui/material/MobileStepper";
 import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import SwipeableViews from "react-swipeable-views";
+import "./cardSlides.css";
 
 const images = [
   {
     label: "Budget Tracker",
     imgPath: "316F84AF-49C6-4E81-BA82-D35ADDADC8EF_1_105_c.jpeg",
+    link: "https://budget-tracker4.netlify.app/",
+    code: "https://github.com/willyv4/Budget-Tracker",
+    codeLabel: "CODE",
   },
   {
     label: "Weather App",
     imgPath: "C0C3C7E1-E4BC-4706-99A7-60E709E698B3_1_105_c.jpeg",
-  },
-  {
-    label: "Blog",
-    imgPath: "C3A25BE0-5023-4F54-85BB-C9A1C83250F9_1_105_c.jpeg",
+    link: "https://stunning-donut-5370df.netlify.app/",
+    code: "https://github.com/willyv4/weatherApi",
+    codeLabel: "CODE",
   },
   {
     label: "Sound Sculpt",
     imgPath: "C0083082-482C-423F-9278-12AAB95EB8AC_1_105_c.jpeg",
+    link: "https://ss-market.netlify.app/",
+    codeLabel: "PRIVATE",
   },
   {
     label: "Roc Wheels ecommerce",
     imgPath: "6A816318-5576-4C4F-B3C7-8C450B5B6F0B_1_105_c.jpeg",
+    link: "https://jbm.582.myftpupload.com/",
+    codeLabel: "WORDPRESS",
   },
 ];
 
@@ -65,14 +71,20 @@ function SwipeableTextMobileStepper() {
         sx={{
           display: "flex",
           alignItems: "center",
-          height: 50,
-          pl: 2,
-          bgcolor: "#3e4a61",
+          color: "#1a2639",
+          height: 70,
+          justifyContent: "center",
+          bgcolor: "#d9dad7",
           borderTopRightRadius: 10,
           borderTopLeftRadius: 10,
         }}
       >
-        <Typography>{images[activeStep].label}</Typography>
+        <a href={images[activeStep].link} target="blank">
+          <button className="picButtons">{images[activeStep].label}</button>
+        </a>
+        <a href={images[activeStep].code} target="blank">
+          <button className="picButtons">{images[activeStep].codeLabel}</button>
+        </a>
       </Paper>
       <SwipeableViews
         axis={theme.direction === "rtl" ? "x-reverse" : "x"}
@@ -101,11 +113,10 @@ function SwipeableTextMobileStepper() {
       </SwipeableViews>
       <MobileStepper
         sx={{
-          mt: -2,
-          bgcolor: "#3e4a61",
+          bgcolor: "#d9dad7",
           borderBottomLeftRadius: 10,
           borderBottomRightRadius: 10,
-          height: 80,
+          height: 60,
         }}
         steps={maxSteps}
         position="static"
@@ -133,8 +144,8 @@ function SwipeableTextMobileStepper() {
               </svg>
             ) : (
               <svg
-                stroke="white"
-                fill="white"
+                stroke="#1a2639"
+                fill="#1a2639"
                 stroke-width="0"
                 viewBox="0 0 24 24"
                 height="1.5em"
@@ -163,8 +174,8 @@ function SwipeableTextMobileStepper() {
               </svg>
             ) : (
               <svg
-                stroke="white"
-                fill="white"
+                stroke="#1a2639"
+                fill="#1a2639"
                 stroke-width="0"
                 viewBox="0 0 24 24"
                 height="1.5em"

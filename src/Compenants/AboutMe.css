@@ -16,10 +16,10 @@
     position: absolute;
     z-index: 2;
     float: right;
-    margin-left: 550px;
+    margin-left: 450px;
     margin-top: 170px;
-    min-width: 600px;
-    max-width: 600px;
+    min-width: 700px;
+    max-width: 700px;
     background-color: #1a2639;
     font-size: larger;
     line-height: 35px;
@@ -31,7 +31,7 @@
 
 .aboutmeheader {
     background-color: #d27157;
-    padding:40px;
+    padding:25px;
     padding-left: 180px;
     padding-right: 180px;
     margin-top: -200px;
@@ -44,7 +44,7 @@
 .lilpic {
     width: 400px;
     height: 400px;
-    margin-left: -600px;
+    margin-left: -730px;
     margin-top: 80px;
     margin-bottom: -200px;
 }
