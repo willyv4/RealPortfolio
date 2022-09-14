@@ -136,9 +136,15 @@ export default function FormDialog() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <button className="submitButton" onClick={handleClose} type="submit">
+            <button
+              className="submitButton"
+              onClick={handleClose}
+              type="submit"
+            >
               SUBMIT
             </button>
+            <h4> Will.Valadez4@gmail.com</h4>
+            <h4> 435-619-0588</h4>
           </form>
         </DialogContent>
       </Dialog>

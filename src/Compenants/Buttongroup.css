@@ -3,7 +3,7 @@
     background-color:  #d27157;
     color: black;
     width: 620px;
-    height: 200px;
+    height: 190px;
     margin-left: 65px;
     margin-top: 20px;
     border-radius: 10px;
@@ -12,7 +12,8 @@
     justify-content: center;
     z-index: 1;
     display: flex;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
 }
 
 .buttons {
@@ -20,17 +21,19 @@
     text-decoration: none;
     border: none;
     height: 70px;
-    width: 145px;
+    width: 195px;
     font-size: small;
     background-color: white;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: 5px;
-    margin-bottom: 1.5px;
-    margin-left: 0px;
+    margin-left: -1px;
+    margin-bottom: -2px;
     font-weight: bolder;
     color: #1a2639;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons:hover {
@@ -40,10 +43,20 @@
     cursor: pointer;
     box-shadow: black 10px 10px 15px -10px;
     background-color: #d9dad7;
-    
 }
 
 .icons {
-    padding: -10px;
-    margin-right: 20px;
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#gmail:hover{
+  
+}
+
