@@ -1,7 +1,6 @@
 .SkillsContainer {
     width: 1230px;
     height: 225px;
-    background-image: linear-gradient(rgb(255, 255, 255) 88%, rgb(195, 195, 195));
     flex-direction: row;
     justify-content: center;
     margin-left: auto;
@@ -87,3 +86,28 @@ img:hover {
     transform: rotateZ(180deg);
 }
 
+@media (max-width:600px ){
+  .slideContainer {
+      width: 400px;
+      margin-left: 0px;
+      height: 250px;
+      padding-bottom: 65px;
+  }
+  .SkillsContainer {
+      margin-top: -80px;
+      width: 400px
+  }
+}
+
+@media (max-width:400px ) {
+    .slideContainer {
+        width: 400px;
+        margin-left: 0px;
+        height: 250px;
+        padding-bottom: 65px;
+    }
+    .SkillsContainer {
+        margin-top: -270px;
+        width: 400px
+    }
+}

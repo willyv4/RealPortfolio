@@ -1,5 +1,6 @@
 import SwipeableTextMobileStepper from "./cardSlides";
 import TextIntro from "./textIntro";
+import Skills from "./Skills";
 import "./mainPage.css";
 import AboutMe from "./AboutMe";
 
@@ -27,6 +28,7 @@ function mainPage() {
         </div>
         <SwipeableTextMobileStepper />
       </div>
+      <Skills />
     </div>
   );
 }

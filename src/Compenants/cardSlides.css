@@ -19,26 +19,16 @@
   transition: .8s;
 }
 
-.css-114p2tk-MuiMobileStepper-dot {
-    background-color: #ababab;
+.cardslides {
+    min-width: 350px;
+    min-height: 520px;
+    margin-right: -275px;
 }
 
-.MuiMobileStepper-dotActive {
-    background-color: #1a2639;
+@media (max-width: 600px) {
+    .cardslides {
+        margin-top: -640px;
+        margin-left: -730px;
+        width: 350px;
+    }
 }
-
-/* @media (max-width:600px)
-{
-.MuiBox-root {
-    margin-left: -700px;
-    max-width: 300px;
-}
-
-.css-1mjcb3e {
-  max-width: 300px;
-}
-
-.react-swipeable-view-container {
-    margin-left: -700px;
-}
-} */

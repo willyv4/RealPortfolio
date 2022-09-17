@@ -122,3 +122,14 @@ h4 {
   margin-left: 10px;
 }
 /* form */
+
+@media (max-width: 600px) {
+  .FormButton {
+    top: 520px;
+    right: 870px;
+  }
+  .buttonContainer {
+    top: 530px;
+    right: 870px;
+  }
+}

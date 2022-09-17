@@ -63,26 +63,27 @@
 
 @media (max-width: 600px) {
   .landing {
-      max-width: 73%;
+      max-width: 110%;
   }
   .MainPage_Container {
-      max-width: 73%;
-      height: 800px;
+      max-width: 110%;
+      height: 1200px;
+      background-image: linear-gradient(#d9dad7, #d9dad7, rgb(255, 255, 255), rgb(255, 255, 255));
   }
 
   .projectandskills {
       font-size: smaller;
       width: 300px;
       height: 320px;
-      margin-top: 460px;
-      margin-left: 420px;
+      margin-top: 500px;
+      margin-left: 45px;
       line-height: 1.75;
       overflow: scroll;
   }
 
   .TEXT {
-      margin-left: 430px;
-      margin-top: -180px;
+      margin-left: 55px;
+      margin-top: -380px;
       font-size: large;
       padding: 10px;
       width: 280px;
