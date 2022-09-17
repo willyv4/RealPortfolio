@@ -51,7 +51,7 @@ function SwipeableTextMobileStepper() {
 
   const handleStepChange = (step) => {
     setActiveStep(step);
-  };
+  };  
 
   return (
     <Box

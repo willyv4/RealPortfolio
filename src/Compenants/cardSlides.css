@@ -11,6 +11,7 @@
     margin: 5px;
 }
 
+
 .picButtons:hover {
   background-color: #d27157;
   color:#1a2639;
@@ -25,3 +26,19 @@
 .MuiMobileStepper-dotActive {
     background-color: #1a2639;
 }
+
+/* @media (max-width:600px)
+{
+.MuiBox-root {
+    margin-left: -700px;
+    max-width: 300px;
+}
+
+.css-1mjcb3e {
+  max-width: 300px;
+}
+
+.react-swipeable-view-container {
+    margin-left: -700px;
+}
+} */

@@ -47,3 +47,32 @@
     border-top-right-radius: 10px;
     margin-left: 350px;
  }
+
+ @media (max-width: 600px) {
+  .backgroundpic {
+      width: 220px;
+      height: 250px;
+      margin-left: 570px;
+      margin-top: 60px;
+  }
+
+  .photo {
+      width: 190px;
+      height: 200px;
+      margin-top: 23px;
+      margin-left: 14px;
+  }
+
+  .text {
+      margin-top: 100px;
+      margin-left: 570px;
+      font-size: 35px;
+      width: 240px;
+      margin-top: 10px;
+  }
+
+  .triangle {
+      margin-top: -210px;
+  }
+
+}
