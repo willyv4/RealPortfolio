@@ -67,7 +67,7 @@
   }
   .MainPage_Container {
       max-width: 110%;
-      height: 1200px;
+      height: 1100px;
       background-image: linear-gradient(#d9dad7, #d9dad7, rgb(255, 255, 255), rgb(255, 255, 255));
   }
 
@@ -75,14 +75,14 @@
       font-size: smaller;
       width: 350px;
       height: 270px;
-      margin-top: 500px;
+      margin-top: 460px;
       margin-left: 20px;
       line-height: 1.75;
   }
 
   .TEXT {
       margin-left: 20px;
-      margin-top: -380px;
+      margin-top: -320px;
       font-size: large;
       padding: 10px;
       width: 350px;

@@ -102,6 +102,9 @@ img:hover {
     .SkillsContainer {
         margin-bottom: 200px;
         height: 250px;
+        width: 300px;
+        margin-left: 60px;
+        margin-top: -300px;
     }
     .slideContainer {
         margin-top: 100px;
