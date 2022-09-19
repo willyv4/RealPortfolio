@@ -123,13 +123,24 @@ h4 {
 }
 /* form */
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .FormButton {
     top: 520px;
-    right: 870px;
+    /* right: 870px; */
   }
   .buttonContainer {
     top: 530px;
-    right: 870px;
+    /* right: 870px; */
   }
-} */
+}
+
+@media (max-width: 500px) {
+  .FormButton {
+    top: 520px;
+    /* right: 870px; */
+  }
+  .buttonContainer {
+    top: 530px;
+    /* right: 870px; */
+  }
+}

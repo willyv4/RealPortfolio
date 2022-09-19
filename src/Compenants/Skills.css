@@ -89,25 +89,23 @@ img:hover {
 @media (max-width:600px ){
   .slideContainer {
       width: 400px;
-      margin-left: 0px;
-      height: 250px;
-      padding-bottom: 65px;
+      margin-bottom: 250px;
   }
   .SkillsContainer {
-      margin-top: -80px;
-      width: 400px
+      margin-top: -350px;
+      width: 400px;
+      margin-left: 60px;
   }
 }
 
-@media (max-width:400px ) {
-    .slideContainer {
-        width: 400px;
-        margin-left: 0px;
-        height: 250px;
-        padding-bottom: 65px;
-    }
+@media (max-width: 400px) {
     .SkillsContainer {
-        margin-top: -270px;
-        width: 400px
+        margin-bottom: 100px;
+        height: 250px;
+
+    }
+    .slideContainer {
+        margin-top: -50px;
     }
 }
+
