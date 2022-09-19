@@ -89,7 +89,7 @@ img:hover {
 @media (max-width:600px ){
   .slideContainer {
       width: 400px;
-      margin-bottom: 250px;
+      margin-bottom: 150px;
   }
   .SkillsContainer {
       margin-top: -350px;
