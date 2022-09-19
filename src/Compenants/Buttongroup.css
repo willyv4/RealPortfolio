@@ -56,7 +56,7 @@
     justify-content: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .ButtonBox {
       width: 100px;
       height: 460px;
