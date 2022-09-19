@@ -60,7 +60,7 @@
   .ButtonBox {
       width: 100px;
       height: 460px;
-      margin-left: 435px;
+      margin-left: 135px;
       margin-top: 60px;
   }
 
@@ -68,6 +68,7 @@
       width: 80px;
       margin-right: 12px;
       font-size: 8px;
+      border-radius: 5px;
   }
 
 }

@@ -53,7 +53,7 @@
   .backgroundpic {
       width: 220px;
       height: 250px;
-      margin-left: 570px;
+      margin-left: 260px;
       margin-top: 60px;
   }
 
@@ -66,14 +66,16 @@
 
   .text {
       margin-top: 100px;
-      margin-left: 570px;
+      margin-left: 270px;
       font-size: 35px;
       width: 240px;
       margin-top: 10px;
   }
 
   .triangle {
-      margin-top: -210px;
+      margin-top: -10px;
+      border-width: 0px 0px 300px 500px;
+      margin-left: 120px;
   }
 
 }

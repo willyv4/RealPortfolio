@@ -109,7 +109,7 @@ img:hover {
         z-index: 0;
     }
     .slideContainer {
-        margin-top: 100px;
+        margin-top: -20px;
         position: relative;
         z-index: 0;
     }

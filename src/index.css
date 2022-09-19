@@ -19,8 +19,8 @@ body {
 
 @media (max-width:600px) {
   html {
-    overflow-x: hidden;
     overflow-y: scroll;
+    width: 100%;
   }
 }
 
