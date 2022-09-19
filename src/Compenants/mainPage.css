@@ -78,6 +78,8 @@
       margin-top: 460px;
       margin-left: 20px;
       line-height: 1.75;
+      position: relative;
+      z-index: 1;
   }
 
   .TEXT {
