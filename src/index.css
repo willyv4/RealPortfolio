@@ -21,7 +21,6 @@ body {
   html {
     overflow-y: scroll;
     height: 2600px;
-    width: 375px;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
