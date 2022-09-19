@@ -23,7 +23,7 @@ function mainPage() {
             <br></br>
             <br></br>
             Other notable skills: Management, Conflict resolution, Troubleshooting,
-            Building Relationships.
+            Building Relationships, Meeting Facilitation, Appointment Scheduling.
           </p>
         </div>
         <SwipeableTextMobileStepper />

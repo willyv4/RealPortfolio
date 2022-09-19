@@ -80,6 +80,7 @@
       line-height: 1.75;
       position: relative;
       z-index: 1;
+      padding: 13px;
   }
 
   .TEXT {

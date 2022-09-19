@@ -12,15 +12,18 @@ const AboutMe = () => {
         src="how-much-do-nursing-homes-cost.png"
       ></img>
       <p className="AboutmeText">
-        Hey, I’m William Valadez! I have a strong passion for creating user
-        interfaces and an effortless user experience as well as creating
-        functional programs! My web development journey started when I realized
-        that managing in the manufacturing industry wasn't as fun or challenging
-        as my new found obsession, coding. So from that point i got a new less time consuming job and i've been
-        recourcelful in teaching my self how to code. I'm very busy as i work
-        full time and i'm a full time bussiness student, yet over the past 7 months
-        i've managed to become a compenant developer. My short-term goal is to get a web
-        development internship or junior dev position. I look forward to learning and working with professionals i'm excited to put in the time and effort.
+        Hello, I’m William Valadez! I have a strong passion for creating user
+        interfaces, effortless user experiences, and functional programs! My web
+        development journey began when I realized that managing in the
+        manufacturing industry wasn’t as fun or challenging as my newfound
+        obsession; coding. From that point on I’ve made changes to invest my
+        personal time in fostering my tech skills. I got a less consuming job
+        and have been resourceful, self-motivated, and diligent as I have taught
+        myself web development. Over the past 7 months, I have become a
+        competent developer, but I have a lot to learn. I have the grit and
+        passion for it. My short-term goal is to land a web development
+        position. I'm eager to work with and learn from professionals. I'm
+        excited to put in the time and effort.
       </p>
       <div className="AboutMetriangle"></div>
     </div>

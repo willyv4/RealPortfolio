@@ -11,29 +11,29 @@ import "./cardSlides.css";
 const images = [
   {
     label: "Budget Tracker",
-    imgPath: "316F84AF-49C6-4E81-BA82-D35ADDADC8EF_1_105_c.jpeg",
+    imgPath: "5DE3C5B2-0A9A-45B6-8AE5-49E8C43C26F7.jpeg",
     link: "https://budget-tracker4.netlify.app/",
     code: "https://github.com/willyv4/Budget-Tracker",
     codeLabel: "CODE",
   },
   {
     label: "Weather App",
-    imgPath: "C0C3C7E1-E4BC-4706-99A7-60E709E698B3_1_105_c.jpeg",
+    imgPath: "6DDFC12D-270F-42C2-92BB-3162E924A5E1.png",
     link: "https://stunning-donut-5370df.netlify.app/",
     code: "https://github.com/willyv4/weatherApi",
     codeLabel: "CODE",
   },
   {
     label: "Sound Sculpt",
-    imgPath: "C0083082-482C-423F-9278-12AAB95EB8AC_1_105_c.jpeg",
+    imgPath: "C0083082-482C-423F-9278-12AAB95EB8AC_1_201_a.jpeg",
     link: "https://ss-market.netlify.app/",
-    codeLabel: "PRIVATE",
+    codeLabel: "Contributor",
   },
   {
     label: "Roc Wheels ecommerce",
-    imgPath: "6A816318-5576-4C4F-B3C7-8C450B5B6F0B_1_105_c.jpeg",
+    imgPath: "6EF0934E-A55B-40F4-BA56-23A2CFE256ED_1_105_c.jpeg",
     link: "https://jbm.582.myftpupload.com/",
-    codeLabel: "WORDPRESS",
+    codeLabel: "contributor",
   },
 ];
 
@@ -106,7 +106,7 @@ function SwipeableTextMobileStepper() {
                     display: "block",
                     maxWidth: 400,
                     overflow: "hidden",
-                    width: "100%",
+                    width: 350,
                   }}
                   src={step.imgPath}
                   alt={step.label}
