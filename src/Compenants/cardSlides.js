@@ -23,12 +23,12 @@ const images = [
     code: "https://github.com/willyv4/weatherApi",
     codeLabel: "CODE",
   },
-  {
-    label: "Sound Sculpt",
-    imgPath: "C0083082-482C-423F-9278-12AAB95EB8AC_1_201_a.jpeg",
-    link: "https://ss-market.netlify.app/",
-    codeLabel: "Contributor",
-  },
+  // {
+  //   label: "Sound Sculpt",
+  //   imgPath: "C0083082-482C-423F-9278-12AAB95EB8AC_1_201_a.jpeg",
+  //   link: "https://ss-market.netlify.app/",
+  //   codeLabel: "Contributor",
+  // },
   {
     label: "Roc Wheels ecommerce",
     imgPath: "6EF0934E-A55B-40F4-BA56-23A2CFE256ED_1_105_c.jpeg",
