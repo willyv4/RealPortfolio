@@ -20,7 +20,7 @@ body {
 @media (max-width:600px) {
   html {
     overflow-y: scroll;
-    height: fit-content;
+    height: 2600px;
   }
 }
 
