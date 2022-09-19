@@ -136,13 +136,14 @@ h4 {
 
 @media (max-width: 500px) {
   .FormButton {
-    top: 610px;
+    top: 600px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    /* right: 870px; */
+    right: 200px;
   }
   .buttonContainer {
-    top: 610px;
+    top: 600px;
+    right: 200px;
     /* right: 870px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
