@@ -174,9 +174,9 @@ h4 {
   }
 
   .buttonContainer {
-    right: 200px;
-    top: 820px;
-    position: fixed;
+    right: 270px;
+    top: 520px;
+    position: absolute;
     /* right: 870px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
