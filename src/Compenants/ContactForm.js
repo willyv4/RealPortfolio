@@ -99,7 +99,8 @@ export default function FormDialog() {
               clip-rule="evenodd"
             ></path>
           </svg>
-          <h4 className="textFields">CONTACT</h4>
+          CONTACT
+          {/* <h4 className="textFields">CONTACT</h4> */}
         </button>
       </div>
       <Dialog open={open} onClose={handleClose}>
