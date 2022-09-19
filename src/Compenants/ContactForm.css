@@ -4,8 +4,8 @@
   border-style: none;
   width: 80px;
   height: 60px;
-  background-color: #3e4a61;
-  color: #d27257;
+  background-color: #1a2639;
+  color: #ffffff;
   z-index: 10; 
   position: fixed; 
   right: 2px; 
@@ -22,7 +22,7 @@
   .ContactPlus:hover {
     animation-name: spinning;
     animation-duration: .2s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
   }
 
 .ContactPlus {
@@ -51,7 +51,6 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     font-size: 13px;
 }
 
@@ -81,7 +80,6 @@
   padding: 10px;
   margin: 10px;
   border-bottom:#3e4a61 solid 2px;
-  
 }
 
 .formInput:hover {
@@ -142,8 +140,7 @@ h4 {
     display: flex;
     display: inline-block;
     position: absolute;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     /* right: 870px; */
   }
   .buttonContainer {
@@ -152,5 +149,25 @@ h4 {
     /* right: 870px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+
+  @keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .ContactPlus {
+    animation-name: spinning;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+
+  .buttonContainer {
+    background-color: #3e4a6100;
+  }
+
+  .textFields {
+    color: #3e4a6100;
   }
 }
