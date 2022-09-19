@@ -122,7 +122,7 @@ h4 {
 }
 /* form */
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .FormButton {
     top: 520px;
     /* right: 870px; */
@@ -144,31 +144,12 @@ h4 {
     /* right: 870px; */
   }
   .buttonContainer {
-    right: 395px;
-    position: absolute;
+    right: 0px;
+    position: fixed;
     /* right: 870px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-/* 
-  @keyframes spinning {
-    from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
-  }
-  .ContactPlus {
-    animation-name: spinning;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-
-  .buttonContainer {
-    background-color: #3e4a6100;
-  }
-
-  .textFields {
-    color: #3e4a6100;
-  } */
 }
 
 @media (max-width: 400px) {
@@ -190,5 +171,14 @@ h4 {
 
   .textFields {
     color: #3e4a6100;
+  }
+
+  .buttonContainer {
+    right: 200px;
+    top: 820px;
+    position: fixed;
+    /* right: 870px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 }
