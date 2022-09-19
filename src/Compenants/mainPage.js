@@ -28,7 +28,9 @@ function mainPage() {
         </div>
         <SwipeableTextMobileStepper />
       </div>
+      <div className="SkillsWrapped">
       <Skills />
+      </div>
     </div>
   );
 }
