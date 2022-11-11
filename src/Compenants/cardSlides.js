@@ -10,6 +10,13 @@ import "./cardSlides.css";
 
 const images = [
   {
+    label: "Simply Schedule",
+    imgPath: "4D3599BD-6A15-423A-8EA7-EF1D3D4FA3B8_1_105_c.jpeg",
+    link: "https://simplyschedule.netlify.app/",
+    code: "https://github.com/willyv4/templesetter",
+    codeLabel: "CODE",
+  },
+  {
     label: "Budget Tracker",
     imgPath: "5DE3C5B2-0A9A-45B6-8AE5-49E8C43C26F7.jpeg",
     link: "https://budget-tracker4.netlify.app/",
@@ -23,14 +30,8 @@ const images = [
     code: "https://github.com/willyv4/weatherApi",
     codeLabel: "CODE",
   },
-  // {
-  //   label: "Sound Sculpt",
-  //   imgPath: "C0083082-482C-423F-9278-12AAB95EB8AC_1_201_a.jpeg",
-  //   link: "https://ss-market.netlify.app/",
-  //   codeLabel: "Contributor",
-  // },
   {
-    label: "Roc Wheels ecommerce",
+    label: "Ecommerce",
     imgPath: "6EF0934E-A55B-40F4-BA56-23A2CFE256ED_1_105_c.jpeg",
     link: "https://jbm.582.myftpupload.com/",
     codeLabel: "contributor",
